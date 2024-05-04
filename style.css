@@ -40,11 +40,15 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 20%;
+   
 }
 
 .apresentacao__conteudo {
     width: 615px;
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 
 }
 
