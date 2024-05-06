@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portifolio</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link" >Home</a>
+            <a href="about.html" class="cabecalho__menu__link" >Sobre mim</a>
+        </nav>
+    </header>
+
+
     <main class="apresentacao">
         <div class = "apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a 
@@ -19,13 +26,22 @@
                 front-end com especialidade em <br><strong>React, HTML e CSS.</strong>
             </p>
             <div class="apresentacao__links">
-                <a class= "apresentacao__links__style" href="https://www.instagram.com/marconi_dm/">instagram</a>
-                <a class= "apresentacao__links__style" href="https://github.com/marconi-dm">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class= "apresentacao__links__style" href="https://www.linkedin.com/in/marconi-damasceno-56b407151/">
+                    <img src="./assets/linkedin.png" alt="linkedin" class="apresentacao__links__icones">
+                    LinkedIn
+                </a>
+                <a class= "apresentacao__links__style" href="https://github.com/marconi-dm">
+                    <img src="./assets/github.png" alt="github" class="apresentacao__links__icones">
+                    Github
+                </a>
             </div>
         </div>
-            <div class="zoom">
-                <img src="marconi.jpeg" alt="foto de marconi damasceno" class="imagem_zoom">
-            </div>
+            <section class="bio_image">
+                <div class="zoom">
+                    <img src="./assets/marconi.jpeg" alt="foto de marconi damasceno" class="imagem_zoom">
+                </div>
+            </section>
     </main>
     <footer></footer>
 </body>
