@@ -51,6 +51,10 @@ body {
     color:var(--cor-terciaria);
 }
 
+.bio_image {
+    width: 40%;
+}
+
 
 .zoom {
     width: 25rem;
@@ -139,12 +143,14 @@ body {
 
 
 @media (max-width:1200px) {
+
+
     .zoom {
-        width: 15rem;
+        width: 350px;
     }
-    
     .imagem_zoom {
-        width: 15rem;
+        width: 350px;
+
     }
 
     .cabecalho {
@@ -164,5 +170,7 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
+
 
 }
